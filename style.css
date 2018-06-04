@@ -1,0 +1,102 @@
+﻿body{
+font-size:12px;
+}
+
+table{
+border-collapse:collapse;
+table-layout:fixed;
+}
+
+.vertical{
+width:67px;
+height:116px;
+}
+
+.horizontal{
+width:116px;
+height:67px;
+}
+
+.event{
+width:116px;
+height:116px;
+}
+
+. exchange{
+width:108px;
+height:108px;
+}
+
+#center {
+width:218px;
+height:218px;
+}
+
+#exchange{
+width:438px;
+height:438px;
+margin:0 auto;
+}
+
+.horizont{
+display:block;
+}
+
+#office{
+width:87px;
+height:170px;
+border: 1px solid #111;
+position:absolute;
+left:125px;
+bottom:380px;
+}
+
+#chance{
+width:175px;
+height:88px;
+border: 1px solid #111;
+position:absolute;
+left:342px;
+top:125px;
+}
+
+#force_major{
+width:86px;
+height:170px;
+border: 1px solid #111;
+position:absolute;
+left:650px;
+bottom:380px;
+}
+
+#up, #down{
+height:18px;
+color:#fff;
+font-family: Arial;
+font-size: 0.9em;
+text-align: center;
+text-transform: uppercase;
+background-color:#111;
+}
+
+#center{
+height:135px;
+text-align: center;
+}
+
+#chance_center{
+width:135px;
+text-align: center;
+}
+
+#left, #right{
+width:17px;
+height:88px;
+color:#fff;
+font-family: Arial;
+font-size: 0.9em;
+text-align: center;
+text-transform: uppercase;
+background-color:#111;
+}
+
