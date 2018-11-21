@@ -1,28 +1,33 @@
-body{
+/*
+* Прототип *
+* Думали, что будем поддерживать IE6. Из-за этого такой ужасный пожход к верстке *
+*/
+
+body {
 	font-size: 12px;
 }
 
-table{
+table {
 	border-collapse: collapse;
 	table-layout: fixed;
 }
 
-.vertical{
+.vertical {
 	width: 67px;
 	height: 116px;
 }
 
-.horizontal{
+.horizontal {
 	width: 116px;
 	height: 67px;
 }
 
-.event{
+.event {
 	width: 116px;
 	height: 116px;
 }
 
-. exchange{
+.exchange {
 	width: 108px;
 	height: 108px;
 }
@@ -32,44 +37,54 @@ table{
 	height: 218px;
 }
 
-#exchange{
+#exchange {
 	width: 438px;
 	height: 438px;
 	margin: 0 auto;
 }
 
-.horizont{
+.horizont {
 	display: block;
 }
 
-#office{
-	width: 87px;
-	height: 170px;
-	border: 1px solid #111;
-	position: absolute;
-	left: 125px;
-	bottom: 380px;
+.game_pole {
+	display: table;
+	margin: 0 auto; 
+	position: relative;
 }
 
-#chance{
-	width: 175px;
-	height: 88px;
-	border: 1px solid #111;
-	position: absolute;
-	left: 342px;
-	top: 125px;
-}
-
-#force_major{
+#office {
 	width: 86px;
 	height: 170px;
 	border: 1px solid #111;
 	position: absolute;
-	left: 650px;
-	bottom: 380px;
+	margin-top: -85px;
+	top: 50%;
+	left: 117px;
 }
 
-#up, #down{
+#chance {
+	width: 175px;
+	height: 88px;
+	border: 1px solid #111;
+	margin-left: -86px;
+	position: absolute;
+	top: 117px;
+	left: 50%;
+
+}
+
+#force_major {
+	width: 87px;
+	height: 170px;
+	border: 1px solid #111;
+	position: absolute;
+	margin-top: -85px;
+	top: 50%;
+	right: 117px;
+}
+
+#up, #down {
 	height: 18px;
 	color: #fff;
 	font-family: Arial;
@@ -79,23 +94,27 @@ table{
 	background-color: #111;
 }
 
-#center{
+#up, #down > td {
+	width: 86px;
+}
+
+#center {
 	height: 135px;
 	text-align: center;
 }
 
-#chance_center{
+#chance_center {
 	width: 135px;
 	text-align: center;
 }
 
-#left, #right{
-	width:17px;
-	height:88px;
-	color:#fff;
+#left, #right {
+	width: 17px;
+	height: 86px;
+	color: #fff;
 	font-family: Arial;
 	font-size: 0.9em;
 	text-align: center;
 	text-transform: uppercase;
-	background-color:#111;
+	background-color: #111;
 }
