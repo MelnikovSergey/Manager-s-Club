@@ -3,5 +3,6 @@ A clone of the classic board game (Monopoly) released in the USSR at the end of 
 
 # Development
 If you'd like to contribute to this repository, here's how you can set it up for development:
-0.	Fork this repository
-0.	Clone the fork to your local machine
+
+* 0.Fork this repository
+* 0.Clone the fork to your local machine
