@@ -118,3 +118,49 @@ table {
 	text-transform: uppercase;
 	background-color: #111;
 }
+
+/* Цвет полос */
+.light-blue-color {
+	background-color: #01b0f1;
+}
+
+.light-green-color {
+	background-color: #91d14e;
+}
+
+.green-color {
+	background-color: #007634;
+}
+
+.yellow-color {
+	background-color: #feff00;
+}
+
+.red-color {
+	background-color: #fd0000;
+}
+
+.blue-color {
+	background-color: #0071c1;
+}
+
+.orange-color {
+	background-color: #ffc000;
+}
+
+.maroon-color {
+	background-color: #782f28;
+}
+
+.black-color {
+	background-color: #000000;	
+}
+
+/* Стиль текста */
+.text-style {
+	font-family: "Arial";
+	font-size: 9px;
+	color: rgba(62, 58, 58, .9);
+	font-weight: 600;
+	text-transform: uppercase;
+}
