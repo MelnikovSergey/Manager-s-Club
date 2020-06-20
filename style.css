@@ -13,33 +13,33 @@ table {
 }
 
 .vertical {
-	width: 67px;
-	height: 116px;
+	width: 7,9289%;   /* 67px */
+	height: 13,6792%; /* 116px */
 }
 
 .horizontal {
-	width: 116px;
-	height: 67px;
+	width: 13,6792%;  /* 116px */
+	height: 7,9289%;  /* 67px */
 }
 
 .event {
-	width: 116px;
-	height: 116px;
+	width: 13,6792%;  /* 116px */
+	height: 13,6792%; /* 116px */
 }
 
 .exchange {
-	width: 108px;
-	height: 108px;
+	width: 12,7810%;  /* 108px */
+	height: 12,7810%; /* 108px ??? */
 }
 
 #center {
-	width: 218px;
-	height: 218px;
+	width: 25,7988%;   /* 218px */
+	height: 25,7988%;  /* 218px ??? */
 }
 
 #exchange {
-	width: 438px;
-	height: 438px;
+	width: 51,8343%;   /* 438px */
+	height: 51,8343%;  /* 438px ??? */
 	margin: 0 auto;
 }
 
@@ -95,16 +95,16 @@ table {
 }
 
 #up, #down > td {
-	width: 86px;
+	width: 10,1775%;        /* 86px */
 }
 
 #center {
-	height: 135px;
+	height: 15,9763%;        /* 135px */
 	text-align: center;
 }
 
 #chance_center {
-	width: 135px;
+	width: 15,9763%;        /* 135px */
 	text-align: center;
 }
 
