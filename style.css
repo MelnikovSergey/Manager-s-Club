@@ -7,6 +7,12 @@ body {
 	font-size: 12px;
 }
 
+.container-inner {
+	width: 50%;
+	height: 50%;
+	margin: 0 auto; 
+}
+
 table {
 	border-collapse: collapse;
 	table-layout: fixed;
@@ -43,6 +49,10 @@ table {
 	margin: 0 auto;
 }
 
+#exchange {
+	margin: 14%;
+}
+
 .horizont {
 	display: block;
 }
@@ -54,38 +64,37 @@ table {
 }
 
 #office {
-	width: 86px;
-	height: 170px;
+	width: 10,1775%; /* 86px */
+	height: 20,0471%; /* 170px */
 	border: 1px solid #111;
 	position: absolute;
-	margin-top: -85px;
+	margin-top: 10,0235%; /* -85px */
 	top: 50%;
-	left: 117px;
+	left: 13,8461%; /* 117px */
 }
 
 #chance {
-	width: 175px;
-	height: 88px;
+	width: 20,7100%; /* 175px */
+	height: 10,3773%; /* 88px */
 	border: 1px solid #111;
-	margin-left: -86px;
+	margin-left: -10,1775%; /* -86px */
 	position: absolute;
-	top: 117px;
+	top: 13,7971%; /* 117px */
 	left: 50%;
-
 }
 
 #force_major {
-	width: 87px;
-	height: 170px;
+	width: 10,2958%; /* 87px */
+	height: 20,0471%; /* 170px */
 	border: 1px solid #111;
 	position: absolute;
-	margin-top: -85px;
+	margin-top: -10,0235%; /* -85px */
 	top: 50%;
-	right: 117px;
+	right: 13,8461%; /* 117px */
 }
 
 #up, #down {
-	height: 18px;
+	height: 2,1226%; /* 18px */ 
 	color: #fff;
 	font-family: Arial;
 	font-size: 0.9em;
@@ -109,8 +118,8 @@ table {
 }
 
 #left, #right {
-	width: 17px;
-	height: 86px;
+	width: 2,0201%; /* 17px */
+	height: 10,1415%; /* 86px */
 	color: #fff;
 	font-family: Arial;
 	font-size: 0.9em;
