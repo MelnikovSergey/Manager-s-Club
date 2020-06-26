@@ -343,3 +343,21 @@ a.game-manual:hover:before {
 	font-weight: 600;
 	text-transform: uppercase;
 }
+
+.stock-market-message {
+	font-family: "Arial";
+	font-size: 9px;
+	text-transform: uppercase;
+}
+
+.transform90deg {
+	transform: rotate(90deg);
+}
+
+.transform-90deg {
+	transform: rotate(-90deg);
+}
+
+.transform180deg {
+	transform: rotate(180deg);
+}
