@@ -1,5 +1,5 @@
 /*
-* Прототип *
+* Пока это прототип
 * Думали, что будем поддерживать IE6. Из-за этого такой ужасный пожход к верстке *
 */
 
@@ -7,54 +7,40 @@ body {
 	font-size: 12px;
 }
 
-.container-inner {
-	width: 100%;
-	height: 100%;
-	margin: 0 auto; 
-}
-
 table {
 	border-collapse: collapse;
 	table-layout: fixed;
 }
 
-td {
-	position: relative;
-}
-
 .vertical {
-	width: 7,9289%; /* 67px */
-	height: 13,6792%; /* 116px */
+	width: 67px;
+	height: 116px;
 }
 
 .horizontal {
-	width: 13,6792%; /* 116px */
-	height: 7,9289%; /* 67px */
+	width: 116px;
+	height: 67px;
 }
 
 .event {
-	width: 13,6792%; /* 116px */
-	height: 13,6792%; /* 116px */
+	width: 116px;
+	height: 116px;
 }
 
 .exchange {
-	width: 12,7810%; /* 108px */
-	height: 12,7810%; /* 108px */
+	width: 108px;
+	height: 108px;
 }
 
 #center {
-	width: 25,7988%; /* 218px */
-	height: 25,7988%; /* 218px */
+	width: 218px;
+	height: 218px;
 }
 
 #exchange {
-	width: 51,8343%; /* 438px */
-	height: 51,8343%; /* 438px */
+	width: 438px;
+	height: 438px;
 	margin: 0 auto;
-}
-
-#exchange {
-	margin: 14%;
 }
 
 .horizont {
@@ -68,37 +54,38 @@ td {
 }
 
 #office {
-	width: 10,1775%; /* 86px */
-	height: 20,0471%; /* 170px */
+	width: 86px;
+	height: 170px;
 	border: 1px solid #111;
 	position: absolute;
-	margin-top: 10,0235%; /* -85px */
+	margin-top: -85px;
 	top: 50%;
-	left: 13,8461%; /* 117px */
+	left: 117px;
 }
 
 #chance {
-	width: 20,7100%; /* 175px */
-	height: 10,3773%; /* 88px */
+	width: 175px;
+	height: 88px;
 	border: 1px solid #111;
-	margin-left: -10,1775%; /* -86px */
+	margin-left: -86px;
 	position: absolute;
-	top: 13,7971%; /* 117px */
+	top: 117px;
 	left: 50%;
+
 }
 
 #force_major {
-	width: 10,2958%; /* 87px */
-	height: 20,0471%; /* 170px */
+	width: 87px;
+	height: 170px;
 	border: 1px solid #111;
 	position: absolute;
-	margin-top: -10,0235%; /* -85px */
+	margin-top: -85px;
 	top: 50%;
-	right: 13,8461%; /* 117px */
+	right: 117px;
 }
 
 #up, #down {
-	height: 2,1226%; /* 18px */ 
+	height: 18px;
 	color: #fff;
 	font-family: Arial;
 	font-size: 0.9em;
@@ -108,99 +95,28 @@ td {
 }
 
 #up, #down > td {
-	width: 10,1775%; /* 86px */
+	width: 86px;
 }
 
 #center {
-	height: 15,9763%; /* 135px */
+	height: 135px;
 	text-align: center;
 }
 
 #chance_center {
-	width: 15,9763%; /* 135px */
+	width: 135px;
 	text-align: center;
 }
 
 #left, #right {
-	width: 2,0201%; /* 17px */
-	height: 10,1415%; /* 86px */
+	width: 17px;
+	height: 86px;
 	color: #fff;
 	font-family: Arial;
 	font-size: 0.9em;
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #111;
-}
-
-/* Цвет полос */
-.light-blue-color {
-	background-color: #01b0f1;
-}
-
-.light-green-color {
-	background-color: #91d14e;
-}
-
-.green-color {
-	background-color: #007634;
-}
-
-.yellow-color {
-	background-color: #feff00;
-}
-
-.red-color {
-	background-color: #fd0000;
-}
-
-.blue-color {
-	background-color: #0071c1;
-}
-
-.orange-color {
-	background-color: #ffc000;
-}
-
-.maroon-color {
-	background-color: #782f28;
-}
-
-.black-color {
-	background-color: #000000;	
-}
-
-.btn {
-    border: none;
-    color: white;
-    font-size: 1.2em;
-    text-align: center;
-    padding: .6em 4.18em;
-    text-decoration: none;
-    display: inline-block;
-    background-color: #000000;   
-   	text-transform: uppercase;
-}
-
-.start-btn {
-	position: absolute;
-	bottom: .4em; /* 5px */
-	left: 50%; 
-	margin-left: -5.76em; /* -68px */
-	letter-spacing: 1px;
-	background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%);
-	background-repeat: no-repeat;
-	background-size: 200% 100%, auto;
-	background-position: 200% 0, 0 0;
-	box-shadow: rgba(0,0,0,.3) 0 2px 5px;
-}					
-
-.start-btn:hover {
-	cursor: pointer;
-}
-
-.start-btn:active {
-  transition: .5s linear;
-  background-position: -200% 0, 0, 0;
 }
 
 a.game-manual {
@@ -333,31 +249,4 @@ a.game-manual:hover:before {
    	right: -10px;
    	bottom: -14px;
    	opacity: 1;
-}
-
-/* Стиль текста */
-.text-style {
-	font-family: "Arial";
-	font-size: 9px;
-	color: rgba(62, 58, 58, .9);
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.stock-market-message {
-	font-family: "Arial";
-	font-size: 9px;
-	text-transform: uppercase;
-}
-
-.transform90deg {
-	transform: rotate(90deg);
-}
-
-.transform-90deg {
-	transform: rotate(-90deg);
-}
-
-.transform180deg {
-	transform: rotate(180deg);
 }
