@@ -1,5 +1,7 @@
-# -Manager-s-Club
-A clone of the classic board game (Monopoly) released in the USSR at the end of perestroika
+# Manager-s-Club
+A clone of the classic board game (Monopoly) released in the USSR at the end of perestroika  
+
+![prototype image](doc/images/proto.jpg)  
 
 # Development
 If you'd like to contribute to this repository, here's how you can set it up for development:
@@ -12,5 +14,3 @@ If you'd like to contribute to this repository, here's how you can set it up for
 6.	Create a new Pull Request
 
 If you'd like your changes to be considered for the original repository, simply submit a pull request after you've made your changes.  
-
-![prototype image](doc/images/proto.jpg)
