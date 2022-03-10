@@ -1,3 +1,9 @@
+<?php
+
+require_once 'functions.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -15,28 +21,10 @@
 </head>
 
 <body>
-	<h2>Регистрация</h2>
+	<h2>Добро пожаловать</h2>
 
-	<form class="" action="" method="post" autocomplete="off">
-		<label for="">Имя:</label>
-		<input type="text" name="name" required value="">
-		<br>
-		<label for="">Имя пользователя:</label>
-		<input type="text" name="username" required value="">
-		<br>
-		<label for="">E-mail:</label>
-		<input type="email" name="email" required value="">
-		<br>
-		<label for="">Пароль:</label>
-		<input type="password" name="password" required value="">
-		<br>
-		<label for="">Подтверждение пароля:</label>
-		<input type="password" name="confirmpassword" required value="">
-		<br>
-		<button type="submit" name="submit">Отправить</button>
-	</form>
 	<div class="action__links">
-		<a href="login.php">Войти</a> | <a href="registration.php">Зарегистрироваться</a>
+		<a href="logout.php">Выйти</a>
 	</div>
 </body>
 </html>
