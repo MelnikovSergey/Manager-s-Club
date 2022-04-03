@@ -479,3 +479,125 @@ a.game-manual:hover:before {
 .container .info span .fa {
   color: #EF3B3A;
 }
+
+
+.manager-card {
+  position: relative;
+  background: #fff;
+  margin: 15px;
+  height: 400px;
+  width: 270px;
+}
+.manager-card:before {
+  display: block;
+  position: absolute;
+  content: " ";
+  height: 370px;
+  width: 240px;
+  border: solid 1px #000;
+  margin: 15px;
+}
+.manager-card:after {
+  display: block;
+  position: absolute;
+  content: " ";
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  content: "1935-2017 Hasbo";
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px;
+  text-align: center;
+}
+.manager-card_title {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  right: 25px;
+  height: 70px;
+  border: solid 2px #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 33px 0;
+}
+.manager-card_title:before {
+  display: block;
+  position: absolute;
+  content: " ";
+  content: "Title deed";
+  top: 8px;
+  width: 100%;
+  font-size: 15px;
+}
+.manager-card_title.red {
+  background: red;
+}
+.manager-card_title.blue {
+  background: blue;
+}
+.manager-card_title.green {
+  background: green;
+}
+.manager-card_content {
+  position: absolute;
+  padding: 3px;
+  bottom: 30px;
+  right: 25px;
+  top: 105px;
+  left: 25px;
+}
+.manager-card_content .description {
+  display: inline-block;
+  height: 26px;
+  width: 70%;
+}
+.manager-card_content .manager-money {
+  float: right;
+}
+.manager-card_footer {
+  position: absolute;
+  padding: 10px 3px 3px 3px;
+  right: 25px;
+  top: 300px;
+  left: 25px;
+  border-top: solid 1px #000;
+}
+.manager-card_footer .description {
+  display: inline-block;
+  height: 29px;
+  width: 50%;
+}
+.manager-card_footer .manager-money {
+  float: right;
+}
+
+.manager-money {
+  position: relative;
+  display: inline-block;
+}
+.manager-money:before {
+  display: block;
+  position: absolute;
+  content: " ";
+  position: relative;
+  display: inline-block;
+  content: "M";
+}
+.manager-money:after {
+  display: block;
+  position: absolute;
+  content: " ";
+  position: absolute;
+  display: block;
+  top: 7px;
+  left: -1px;
+  height: 4px;
+  width: 15px;
+  content: " ";
+  border-top: solid 1px #000;
+  border-bottom: solid 1px #000;
+}
