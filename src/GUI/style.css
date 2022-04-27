@@ -390,12 +390,12 @@ a.game-manual:hover:before {
   box-shadow: inset 0 3px #111, inset 0 -3px #555;
 }
 
-
 .login-page {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
 }
+
 .form {
   position: relative;
   z-index: 1;
@@ -406,6 +406,7 @@ a.game-manual:hover:before {
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
+
 .form input {
   font-family: "Arial", sans-serif;
   outline: 0;
@@ -417,6 +418,7 @@ a.game-manual:hover:before {
   box-sizing: border-box;
   font-size: 14px;
 }
+
 .form button {
   font-family: "Arial", sans-serif;
   text-transform: uppercase;
@@ -431,36 +433,44 @@ a.game-manual:hover:before {
   transition: all 0.3 ease;
   cursor: pointer;
 }
+
 .form button:hover,.form button:active,.form button:focus {
   background: #43A047;
 }
+
 .form .message {
   margin: 15px 0 0;
   color: #b3b3b3;
   font-size: 12px;
 }
+
 .form .message a {
   color: #4CAF50;
   text-decoration: none;
 }
+
 .form .register-form {
   display: none;
 }
+
 .container {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
 }
+
 .container:before, .container:after {
   content: "";
   display: block;
   clear: both;
 }
+
 .container .info {
   margin: 50px auto;
   text-align: center;
 }
+
 .container .info h1 {
   margin: 0 0 15px;
   padding: 0;
@@ -468,18 +478,20 @@ a.game-manual:hover:before {
   font-weight: 300;
   color: #1a1a1a;
 }
+
 .container .info span {
   color: #4d4d4d;
   font-size: 12px;
 }
+
 .container .info span a {
   color: #000000;
   text-decoration: none;
 }
+
 .container .info span .fa {
   color: #EF3B3A;
 }
-
 
 .manager-card {
   position: relative;
@@ -488,6 +500,7 @@ a.game-manual:hover:before {
   height: 400px;
   width: 270px;
 }
+
 .manager-card:before {
   display: block;
   position: absolute;
@@ -497,6 +510,7 @@ a.game-manual:hover:before {
   border: solid 1px #000;
   margin: 15px;
 }
+
 .manager-card:after {
   display: block;
   position: absolute;
@@ -511,6 +525,7 @@ a.game-manual:hover:before {
   padding: 5px;
   text-align: center;
 }
+
 .manager-card_title {
   position: absolute;
   top: 25px;
@@ -524,6 +539,7 @@ a.game-manual:hover:before {
   font-size: 20px;
   padding: 33px 0;
 }
+
 .manager-card_title:before {
   display: block;
   position: absolute;
@@ -533,15 +549,19 @@ a.game-manual:hover:before {
   width: 100%;
   font-size: 15px;
 }
+
 .manager-card_title.red {
   background: red;
 }
+
 .manager-card_title.blue {
   background: blue;
 }
+
 .manager-card_title.green {
   background: green;
 }
+
 .manager-card_content {
   position: absolute;
   padding: 3px;
@@ -550,14 +570,17 @@ a.game-manual:hover:before {
   top: 105px;
   left: 25px;
 }
+
 .manager-card_content .description {
   display: inline-block;
   height: 26px;
   width: 70%;
 }
+
 .manager-card_content .manager-money {
   float: right;
 }
+
 .manager-card_footer {
   position: absolute;
   padding: 10px 3px 3px 3px;
@@ -566,11 +589,13 @@ a.game-manual:hover:before {
   left: 25px;
   border-top: solid 1px #000;
 }
+
 .manager-card_footer .description {
   display: inline-block;
   height: 29px;
   width: 50%;
 }
+
 .manager-card_footer .manager-money {
   float: right;
 }
@@ -579,6 +604,7 @@ a.game-manual:hover:before {
   position: relative;
   display: inline-block;
 }
+
 .manager-money:before {
   display: block;
   position: absolute;
@@ -587,6 +613,7 @@ a.game-manual:hover:before {
   display: inline-block;
   content: "M";
 }
+
 .manager-money:after {
   display: block;
   position: absolute;
@@ -600,4 +627,81 @@ a.game-manual:hover:before {
   content: " ";
   border-top: solid 1px #000;
   border-bottom: solid 1px #000;
+}
+
+article {
+  box-sizing: border-box;
+  width: 510px;
+  height: 600px;
+  margin: 10vh auto;
+  padding: 14px;
+  background: #f7f2ef url("paper.png");
+  box-shadow: 7px 12px 7px black;
+  opactiy: .25;
+}
+
+#deed-frame {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 14px;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+#header {
+  width: auto;
+  height: 120px;
+  background-color: rgb(9, 72, 141);
+  opacity: .85;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: syncopate, sans-serif;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 10px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.rent {
+  margin-bottom: -10px;
+}
+
+#column-houses {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+#column-prices {
+  float: right;
+  width: 30%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.fine-print {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  padding: 0 30px;
+  text-align: justify;
+  font-style: italic;
 }
